@@ -30,7 +30,7 @@ usage (){
 	echo ""
 	echo "$>$0 {filename} --letters [LETTER_LIST]"
 	printf "\tDonne les statistiques pour le fichier passé en paramètre\r\n"
-	printf "\t--letters est optionnel et permet de fournir une list de lettre plus restreinte\r\n"
+	printf "\t--letters est optionnel et permet de fournir une list de lettre plus restreinte\r\n\tLETTER_LIST ne prend en compte que les lettres majuscules\r\n"
 
 }
 
